@@ -339,8 +339,7 @@
   }
 
   .card__concentration {
-    display: flex;
-    flex-direction: row;
+    grid-template-columns: repeat(auto-fill, minmax(314px, 1fr));
   }
   .footer {
     min-height: 768px;
